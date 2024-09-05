@@ -27,7 +27,7 @@ class Server {
 
     middlewares() {
         // Habilitar CORS
-        this.app.use(cors());
+        this.app.use(express.static("public"));
 
         // Parsear cuerpos de solicitudes JSON
         this.app.use(express.json());
