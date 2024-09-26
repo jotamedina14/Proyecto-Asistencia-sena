@@ -11,7 +11,7 @@ const AprendizSchema = Schema({
     cc: {
         type: String,
         required: [true, 'La cédula es obligatoria']
-    },
+    }, 
     nombre: {
         type: String,
         required: [true, 'El nombre es obligatorio']
